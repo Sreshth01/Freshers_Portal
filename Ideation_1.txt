@@ -1,0 +1,17 @@
+1) Research : 
+	a) Purpose
+	b) Target Audience (All of the features which are currently present)
+	c) Features add on. ( Club c) and d) )
+	d) Websites. ( Club c) and d) )
+	e) Map - Order of featuers/Info. 
+	f) Several pages  or Club them into one?
+
+2) Ideation :
+	a) User Flow (Ex. 7 feature-sets) How these 7 feature sets. Little to no illustration.
+	b) WireFraming. Requires illustration.
+
+3) Implementaion :
+	a) UI.
+	b) Frontend/Backend.
+	c) Deployment.
+
