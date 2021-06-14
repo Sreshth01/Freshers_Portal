@@ -13,7 +13,76 @@
 /* For Fonts - use font-family: font1 */
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
-.test {
-    color: var(--peach);
+.header {
+    position: absolute;
+    width: 100vw;
+    height: 6.553vh;
+    left: 0px;
+    top: 0px;
+    /* Black */
+    background: var(--black);
+}
+
+.logo_header {
+    position: absolute;
+    width: 2.22222vw;
+    height: auto;
+    left: 34.4444vw;
+    top: 1.3857vh;
+}
+
+.iitg_header {
+    position: absolute;
+    width: 30vw;
+    height: 3.695vh;
+    left: 38.05555vw;
+    top: 1.3857vh;
     font-family: var(--font1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8475vh;
+    line-height: 2.309vh;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    /* White */
+    color: var(--white);
+}
+
+.Announcement {
+    position: absolute;
+    width: 12.5vw;
+    height: 5.08083vh;
+    left: 88.26389vw;
+    top: 11.5473vh;
+    /* Peach 2 */
+    background: var(--pink);
+    border-radius: 5px;
+}
+
+.logo_announcement {
+    position: absolute;
+    width: 2.1736vw;
+    height: auto;
+    left: 0.47561vw;
+    top: 0.6928vh;
+}
+
+.text_announcement {
+    position: absolute;
+    width: 7.8125vw;
+    height: 2.3718vh;
+    left: 3.125vw;
+    top: 1.27vh;
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8476vh;
+    line-height: 2.3094vh;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* Black */
+    color: var(--black);
 }
