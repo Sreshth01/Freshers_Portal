@@ -13,6 +13,23 @@
 /* For Fonts - use font-family: font1 */
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+body {
+    background-color: var(--black);
+}
+
+
+/* Scrollbar hide */
+
+html {
+    overflow: scroll;
+}
+
+ ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    /* make scrollbar transparent */
+}
+
 .header {
     position: absolute;
     width: 100vw;
@@ -52,13 +69,14 @@
 
 .Announcement {
     position: absolute;
-    width: 12.5vw;
+    width: 11.736vw;
     height: 5.08083vh;
     left: 88.26389vw;
     top: 11.5473vh;
     /* Peach 2 */
     background: var(--pink);
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .logo_announcement {
@@ -85,4 +103,18 @@
     align-items: center;
     /* Black */
     color: var(--black);
+}
+
+.video {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    left: 0vw;
+    /* right: 10vw; */
+    top: 6.582vh;
+    opacity: 0.15;
+}
+
+#video_bg {
+    background-color: #14181c;
 }
