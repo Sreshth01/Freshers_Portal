@@ -1,0 +1,18 @@
+/* For Color */
+
+:root {
+    --black: #14181c;
+    --white: #FAFCFE;
+    --peach: #FECFBD;
+    --pink: #FF8274;
+    --blue: #2F4858;
+}
+
+
+/* For Fonts - font-family: 'Source Sans Pro', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+.test {
+    color: var(--peach);
+    font-family: 'Source Sans Pro', sans-serif;
+}
