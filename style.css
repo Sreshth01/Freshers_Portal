@@ -6,13 +6,14 @@
     --peach: #FECFBD;
     --pink: #FF8274;
     --blue: #2F4858;
+    --font1: 'Source Sans Pro', sans-serif;
 }
 
 
-/* For Fonts - font-family: 'Source Sans Pro', sans-serif; */
+/* For Fonts - use font-family: font1 */
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 .test {
     color: var(--peach);
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--font1);
 }
