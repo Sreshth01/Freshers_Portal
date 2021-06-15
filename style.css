@@ -12,7 +12,7 @@
 
 /* For Fonts - use font-family: font1 */
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;900&display=swap');
 body {
     background-color: var(--black);
 }
@@ -31,11 +31,12 @@ html {
 }
 
 .header {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 6.553vh;
     left: 0px;
     top: 0px;
+    z-index: 1;
     /* Black */
     background: var(--black);
 }
@@ -68,9 +69,10 @@ html {
 }
 
 .Announcement {
-    position: absolute;
+    position: fixed;
     width: 11.736vw;
     height: 5.08083vh;
+    z-index: 1;
     left: 88.26389vw;
     top: 11.5473vh;
     /* Peach 2 */
@@ -115,6 +117,46 @@ html {
     opacity: 0.15;
 }
 
-#video_bg {
-    background-color: #14181c;
+.txt_welcome {
+    position: absolute;
+    width: 28.01388vw;
+    height: 12.702vh;
+    left: 36.02778vw;
+    top: 38.10623vh;
+    /* H2 */
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 6.23556vh;
+    line-height: 12.702vh;
+    /* identical to box height, or 204% */
+    text-align: center;
+    /* Peach 1 */
+    color: var(--peach);
+}
+
+.txt_iitg {
+    position: absolute;
+    width: 38.26389vw;
+    height: 12.702vh;
+    left: 30.902778vw;
+    top: 48.037vh;
+    /* H1 */
+    font-family: var(--font1);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 11.0854vh;
+    line-height: 12.702vh;
+    /* identical to box height, or 115% */
+    text-align: center;
+    /* White */
+    color: var(--white);
+}
+
+.arrow_button {
+    position: absolute;
+    width: 2.877vw;
+    height: auto;
+    left: 48.5618vw;
+    top: 81.524vh;
 }
